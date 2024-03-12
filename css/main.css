@@ -109,7 +109,7 @@ body{
 }
 
 .menu-footer{
-    margin: 3%;
+    margin: 3% 3% 10% 3%;
     padding: 5%;
     font-family: "Space Grotesk", Arial, sans-serif;
 }
@@ -174,12 +174,16 @@ body{
 /* For desktop devices */
 @media screen and (min-width: 900px){
     .navbar{
-        padding: 1%;
+        padding: 0.25%;
         flex-direction: row;
     }
 
     .navbar > *{
         width: 50%;
+    }
+
+    .navbar a{
+        padding: 2%;
     }
 
     .logo-text{
