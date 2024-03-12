@@ -48,7 +48,7 @@ body{
 }
 
 .info-container{
-    margin: 5% 5% 20% 5%;
+    margin: 5% 5% 10% 5%;
     padding: 5%;
 }
 
@@ -205,7 +205,7 @@ body{
     }
 
     .img-container{
-        padding: 1%;
+        padding: 0.5%;
         border: 1px solid #111111;
     }
 
@@ -218,6 +218,16 @@ body{
 
     .info-container p{
         text-align: justify;
+    }
+
+    .menu-heading{
+        margin: 5%;
+        padding: 0;
+    }
+
+    .menu-heading h3{
+        margin: 0;
+        padding: 1%;
     }
 
     .menu-content{
@@ -235,5 +245,34 @@ body{
     .menu-card img{
         width: 40vh;
         height: 40vh;
+    }
+
+    .menu-footer{
+        margin: 2%;
+        padding: 0;
+    }
+
+    .footer{
+        padding: 3%;
+    }
+
+    .newsletter-signup{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newsletter-signup-btn{
+        padding: 1%;
+        width: 30%;
+    }
+
+    .footer-links{
+        flex-direction: row;
+    }
+
+    .footer-links > *{
+        width: 33.33%;
     }
 }
