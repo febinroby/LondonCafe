@@ -36,4 +36,25 @@ body{
     font-weight: 400;
 }
 
+.img-container{
+    margin: 3%;
+}
+
+.img-container img{
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(50%);
+}
+
+.info-container{
+    margin: 8% 3% 8% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-heading{
+    align-self: center;
+}
+
 /* For desktop devices */
