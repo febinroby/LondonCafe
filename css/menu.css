@@ -36,4 +36,24 @@ body{
     font-weight: 400;
 }
 
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-subsection{
+    display: flex;
+    flex-direction: column;
+}
+
+.subsection-body{
+    display: flex;
+    flex-direction: column;
+}
+
 /* For desktop devices */
