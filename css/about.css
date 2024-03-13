@@ -147,7 +147,21 @@ body{
     background-color: #f5f5f5;
 }
 
+.form-inputs textarea{
+    margin: 0 0 5% 0;
+    padding: 1%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+    resize: none;
+}
+
 .form-inputs input:placeholder-shown{
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.form-inputs textarea:placeholder-shown{
     font-family: "Space Grotesk", Arial, sans-serif;
 }
 
@@ -156,8 +170,13 @@ body{
     border-bottom: 2px solid #111111;
 }
 
+.form-inputs textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #111111;
+}
+
 .form-submit{
-    margin: 5% 0 0 0;
+    margin: 3% 0 0 0;
     align-self: center;
 }
 
@@ -236,6 +255,7 @@ body{
     }
 
     .logo-text{
+        padding: 0.25%;
         text-align: left;
     }
 

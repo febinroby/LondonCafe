@@ -37,7 +37,7 @@ body{
 }
 
 .img-container{
-    margin: 0;
+    margin: 3% 3% 3% 3%;
     padding: 0;
 }
 
@@ -188,6 +188,7 @@ body{
     }
 
     .logo-text{
+        padding: 0.25%;
         text-align: left;
     }
 
@@ -215,7 +216,6 @@ body{
 
     .img-container{
         padding: 0.5%;
-        border: 1px solid #111111;
     }
 
     .info-container{
@@ -227,6 +227,10 @@ body{
 
     .info-container p{
         text-align: justify;
+    }
+
+    .menu-container{
+        margin: 0 0 5% 0;
     }
 
     .menu-heading{
