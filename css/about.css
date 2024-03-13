@@ -36,6 +36,11 @@ body{
     font-weight: 400;
 }
 
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .img-container{
     margin: 3%;
 }
@@ -54,7 +59,130 @@ body{
 }
 
 .info-heading{
+    margin: 0 0 5% 0;
+    padding: 2%;
     align-self: center;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-weight: 100;
+    background-color: #111111;
+    color: #f5f5f5;
+}
+
+.info-content{
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.info-content p{
+    text-align: justify;
+}
+
+.address-container{
+    margin: 8% 3% 8% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.address-heading{
+    margin: 0 0 5% 0;
+    padding: 2%;
+    align-self: center;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-weight: 100;
+    background-color: #111111;
+    color: #f5f5f5;
+}
+
+.address-subtitle{
+    font-weight: bold;
+}
+
+.address-content{
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.address-img img{
+    width: 100%;
+    height: auto;
+    filter: grayscale(50%);
+}
+
+.contact-container{
+    margin: 8% 3% 8% 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading{
+    margin: 0 0 5% 0;
+    padding: 2%;
+    align-self: center;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-weight: 100;
+    background-color: #111111;
+    color: #f5f5f5;
+}
+
+.contact-form input:placeholder-shown{
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.form-inputs input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #111111;
+    background-color: #f5f5f5;
+}
+
+.footer{
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.newsletter-signup{
+    margin: 5%;
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+.newsletter-signup a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.newsletter-signup-btn{
+    padding: 3%;
+    border: 1px solid #f5f5f5;
+}
+
+.newsletter-signup-btn:hover{
+    background-color: #f5f5f5;
+}
+
+.newsletter-signup-btn:hover a{
+    color: #111111;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.footer-links a{
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.footer-links a:hover{
+    color: wheat;
 }
 
 /* For desktop devices */
+@media screen and (min-width: 900px){
+
+}
