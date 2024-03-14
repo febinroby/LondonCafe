@@ -1,0 +1,231 @@
+/* For mobile devices */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+.navbar{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    text-align: center;
+}
+
+.navbar a{
+    padding: 3%;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.logo-text h1{
+    margin: 0;
+    font-family: "Great Vibes", 'Times New Roman', sans-serif;
+    font-weight: 400;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.body-heading{
+    margin: 10% 5% 5% 5%;
+    align-self: center;
+}
+
+.body-heading h3{
+    padding: 3%;
+    background-color: #111111;
+    color: #f5f5f5;
+    width: max-content;
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+.body-description{
+    margin: 5%;
+    text-align: justify;
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.form-container{
+    margin: 10%;
+}
+
+.newsletter-signup-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs input{
+    margin: 0 0 10% 0;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: #f5f5f5;
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.form-inputs input:focus{
+    outline: none;
+    border-bottom: 2px solid #111111;
+}
+
+.form-submit{
+    margin: 10% 0 0 0;
+    align-self: center;
+}
+
+.form-submit input{
+    padding: 15%;
+    width: max-content;
+    border: 1px solid #111111;
+    background-color: #f5f5f5;
+    color: #111111;
+    font-family: "Roboto", Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.form-submit input:hover{
+    background-color: #111111;
+    color: #f5f5f5;
+}
+
+.footer{
+    padding: 7%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111111;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.newsletter-signup{
+    margin: 5%;
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+.newsletter-signup a{
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.newsletter-signup-btn{
+    padding: 3%;
+    border: 1px solid #f5f5f5;
+}
+
+.newsletter-signup-btn:hover{
+    background-color: #f5f5f5;
+}
+
+.newsletter-signup-btn:hover a{
+    color: #111111;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    font-family: "Space Grotesk", Arial, sans-serif;
+}
+
+.footer-links a{
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.footer-links a:hover{
+    color: wheat;
+}
+
+/* For desktop devices */
+@media screen and (min-width: 900px){
+    .navbar{
+        padding: 0.25%;
+        flex-direction: row;
+    }
+
+    .navbar > *{
+        width: 50%;
+    }
+
+    .navbar a{
+        padding: 2%;
+    }
+
+    .logo-text{
+        padding: 0.25%;
+        text-align: left;
+    }
+
+    .nav-links{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-links a{
+        align-self: center;
+    }
+
+    .body-heading{
+        margin: 8% 5% 0 5%;
+    }
+
+    .form-container{
+        margin: 5% 20% 5% 20%;
+    }
+
+    .form-submit{
+        margin: 5% 0 5% 0;
+        align-self: center;
+    }
+
+    .form-submit input{
+        padding: 20% 50% 20% 50%;
+        width: max-content;
+    }
+
+    .footer{
+        padding: 3%;
+    }
+
+    .newsletter-signup{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .newsletter-signup-btn{
+        padding: 1%;
+        width: 30%;
+    }
+
+    .footer-links{
+        flex-direction: row;
+    }
+
+    .footer-links > *{
+        width: 33.33%;
+    }
+}
