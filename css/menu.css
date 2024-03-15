@@ -94,6 +94,11 @@ body{
     flex-direction: column;
 }
 
+.section-for-desktop{
+    display: flex;
+    flex-direction: column;
+}
+
 .section-for-mobile{
     display: flex;
     flex-direction: row;
@@ -235,12 +240,21 @@ body{
         padding: 1%;
     }
 
-    .section-for-mobile{
+    .section-for-desktop{
         flex-direction: row;
     }
 
+    .section-for-desktop > *{
+        width: 50%;
+    }
+
+    .section-for-mobile{
+        display: flex;
+        flex-direction: row;
+    }
+    
     .section-for-mobile > *{
-        width: 25%;
+        width: 50%;
     }
 
     .menu-tile-img{
