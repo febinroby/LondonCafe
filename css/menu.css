@@ -240,6 +240,10 @@ body{
         padding: 1%;
     }
 
+    .subsection-body{
+        margin: 1.5%;
+    }
+
     .section-for-desktop{
         flex-direction: row;
     }
